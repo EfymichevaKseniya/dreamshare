@@ -1,0 +1,26 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section__title {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+}
+
+.btn__red {
+  background: #ff4e50;
+  color: #fff;
+  border-radius: 20px;
+}

@@ -1,0 +1,9 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./core.css";
+@import "../css/blocks/header.css";
+@import "../css/blocks/steps.css";
+@import "../css/blocks/partners.css";
+@import "../css/blocks/ideas.css";
+@import "../css/blocks/subscrition.css";
+@import "../css/blocks/footer.css";
