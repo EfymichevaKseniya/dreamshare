@@ -24,3 +24,11 @@ body {
   color: #fff;
   border-radius: 20px;
 }
+
+.btn__red:hover {
+  background: #df3a3d;
+}
+
+.btn__red:focus {
+  background: #a82629;
+}
