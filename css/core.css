@@ -6,7 +6,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 940px;
+  max-width: 975px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -31,4 +31,11 @@ body {
 
 .btn__red:focus {
   background: #a82629;
+}
+
+
+@media (max-width: 769px) {
+  .container {
+    padding: 0 10px;
+  }
 }

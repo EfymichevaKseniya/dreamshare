@@ -1,6 +1,6 @@
 .header {
-  padding-top: 51px;
-  padding-bottom: 246px;
+  padding-top: 43px;
+  padding-bottom: 233px;
   background: linear-gradient(
     to bottom,
   rgba(0,0,0, 0.2),
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  margin-bottom: 227px;
+  margin-bottom: 145px;
 }
 
 .header__logo {
@@ -22,6 +22,7 @@
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .header__btns-login,
@@ -33,10 +34,10 @@
 }
 
 .header__btns-registration {
-  padding: 12px 18px 10px;
+  padding: 6px 18px 9px;
   border: 2px solid #fff;
   border-radius: 20px;
-  margin-left: 19px;
+  margin-left: 16px;
 }
 
 .header__info {
@@ -55,7 +56,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 52px;
-  margin-bottom: 42px;
+  margin-bottom: 25px;
   text-transform: uppercase;
 }
 
@@ -64,14 +65,14 @@
   font-weight: 300;
   color: #fff;
   font-size: 24px;
-  margin-bottom: 45px;
+  margin-bottom: 36px;
 }
 
 .header__info-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   cursor: pointer;
-  padding: 14px 23px 12px 21px;
+  padding: 12px 23px 11px 21px;
 }
 
 .header__btns-login:hover {
@@ -88,18 +89,24 @@
   border-color: #ff4e50;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 769px) {
   .header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
   }
+
+  .header__top {
+    padding: 0 37px;
+  }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 321px) {
   .header {
     background-position: bottom;
     background-size: cover;
+    padding-top: 139px;
+    margin-bottom: 34px;
   }
 
   .header__top {
@@ -109,6 +116,7 @@
 
   .header__info-btn {
     order: 1;
+    padding: 12px 46px 10px 50px;
   }
 
   .header__logo {
@@ -117,10 +125,18 @@
   }
 
   .header__info {
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
   .header__info-title {
     font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .header__info-subtitle {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 37px;
+    margin-bottom: 14px;
   }
 }

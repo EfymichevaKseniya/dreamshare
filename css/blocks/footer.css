@@ -16,7 +16,8 @@
 .footer__wrapper {
   padding-top: 40px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 20% 20% 31% 64%;
+  gap: 52px;
 }
 
 .footer__logo-text {
@@ -25,13 +26,14 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .footer-title {
   color: #333;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .footer__nav-list {
@@ -51,9 +53,11 @@
   border-bottom: 1px solid #666;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 769px) {
   .footer__wrapper {
+    grid-template-columns: 25% 18% 17% 28%;
     justify-items: center;
+    gap: 34px;
   }
 }
 
