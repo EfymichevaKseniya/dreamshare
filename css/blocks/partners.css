@@ -121,13 +121,30 @@
 }
 
 @media (max-width: 376px) {
+  .partners {
+    padding-top: 25px;
+  }
+
+  .partners__title {
+    margin-bottom: 14px;
+  }
+
+  .partners__items {
+    row-gap: 26px;
+  }
+
   .partners__item {
     width: 100%;
-    margin-bottom: 20px;
+  }
+
+  .partners__item-avatar {
+    margin-bottom: 18px;
   }
 
   .partners__link {
-    width: 100%;
+    width: 93%;
     text-align: center;
+    margin-top: 32px;
+    padding: 7px 35px 11px 28px;
   }
 }

@@ -105,8 +105,8 @@
   .header {
     background-position: bottom;
     background-size: cover;
-    padding-top: 139px;
-    margin-bottom: 34px;
+    padding-top: 27px;
+    padding-bottom: 138px;
   }
 
   .header__top {
@@ -121,7 +121,7 @@
 
   .header__logo {
     order: 2;
-    padding-top: 120px;
+    padding-top: 125px;
   }
 
   .header__info {
